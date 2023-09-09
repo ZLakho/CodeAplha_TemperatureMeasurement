@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="color.css">
+  <script>
+    function temperatureConverter(valNum) {
+      valNum = parseFloat(valNum);
+      document.getElementById("outputCelsius").innerHTML = (valNum - 32) / 1.8;
+    }
+    function temperatureConverter1(valNum1) {
+      valNum1 = parseFloat(valNum1);
+      document.getElementById("outputFahrenheit").innerHTML = (valNum1 * 1.8) + 32;
+    }
+  </script>
+</head>
+
+<body bgcolor="#003063">
+
+  <div id="z123">
+    <h1><b>TEMPERATURE CONVERTER</b></h1>
+  </div>
+  <div id="abc">
+    <p>
+      <label>Fahrenheit</label>
+      <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)">
+    </p>
+    <p>Celsius : <span id="outputCelsius"></span></p>
+  </div>
+  <div id="abcd">
+    <p>
+      <label>Celcius</label>
+      <input id="inputCelcius" type="number" placeholder="Calcius" oninput="temperatureConverter1(this.value)">
+    </p>
+    <p>Fahrenheit : <span id="outputFahrenheit"></span></p>
+  </div>
+
+
+</body>
+
+</html>

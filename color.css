@@ -1,0 +1,35 @@
+#z123{
+    border: 3px solid #fff;
+    padding: 20px;
+    background-color:rgb(8, 8, 51);
+    text-align: center;
+    color: #fff;
+    /* background-color:rgb(48, 160, 180); */
+}
+#abc{
+    
+    color: #fff;
+    background-color: rgb(8, 8, 51);
+    height: 20%;
+    border-style: double;
+    border: 5px solid;
+    margin-top: 10%;
+    width: 15%;
+    float: 5%;
+    text-align: left;
+    padding: 5%;
+    margin-left: 20%;
+    
+}
+
+#abcd{
+    background-color:rgb(8, 8, 51);
+    color: #fff;
+    border-style: double;
+    border: 5px solid;
+    margin-top: -18.50%;
+    margin-left: 50%;
+    width: 15%;
+    text-align: left;
+    padding: 5%;
+}
